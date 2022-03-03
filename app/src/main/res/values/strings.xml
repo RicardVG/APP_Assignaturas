@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">APP_Assignaturas</string>
+    <string name="desenvolupament_de_dispositius_mobils">DESENVOLUPAMENT DE DISPOSITIUS MÒBILS (I)</string>
+    <string name="segunda_descripcion">La visualización de imágenes y vídeos han ganado presencia respecto a los documentos escritos. Es por esta razón que la creación de un buen audiovisual se ha vuelto clave en la hora de transmitir una idea o bien reflejar un sentimiento.</string>
+    <string name="produccio_audiovisual">PRODUCCIÓ AUDIOVISUAL</string>
+    <string name="primera_descripcion">El objetivo principal de la asignatura es ampliar los conocimientos de los alumnos en el campo de la programación, presentándolos un nuevo ámbito: la programación para dispositivos móviles.</string>
+
 </resources>
