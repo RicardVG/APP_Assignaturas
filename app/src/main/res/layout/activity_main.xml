@@ -6,13 +6,54 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="195dp"
+        android:layout_height="202dp"
+        app:srcCompat="@drawable/foto_produccio_audiovisual"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="PRODUCCIÓ AUDIOVISUAL"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESENVOLUPAMENT DE DISPOSITIUS MÒBILS (I)"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="238dp"
+        android:layout_height="243dp"
+        app:srcCompat="@drawable/foto_mobils"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="225dp"
+        android:layout_height="64dp"
+        android:text=" La visualización de imágenes y vídeos han ganado presencia respecto a los documentos escritos. Es por esta razón que la creación de un buen audiovisual se ha vuelto clave en la hora de transmitir una idea o bien reflejar un sentimiento."
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="651dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="302dp"
+        android:layout_height="58dp"
+        android:text=" El objetivo principal de la asignatura es ampliar los conocimientos de los alumnos en el campo de la programación, presentándolos un nuevo ámbito: la programación para dispositivos móviles."
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="336dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
