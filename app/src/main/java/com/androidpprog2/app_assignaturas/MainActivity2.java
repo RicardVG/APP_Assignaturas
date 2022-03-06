@@ -38,6 +38,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         TextView des = (TextView)  findViewById(R.id.descriptionAssignatura);
         des.setText(description);
+
     }
 
 }
