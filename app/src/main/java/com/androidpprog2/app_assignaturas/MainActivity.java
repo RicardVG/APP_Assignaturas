@@ -25,5 +25,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        second_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent2 = MainActivity2.newIntent(MainActivity.this, getString(R.string.produccio_audiovisual),R.drawable.foto_produccio_audiovisual,getString(R.string.segunda_descripcion));
+                startActivity(intent2);
+            }
+        });
     }
 }

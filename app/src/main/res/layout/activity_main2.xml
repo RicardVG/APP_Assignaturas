@@ -10,17 +10,39 @@
         android:id="@+id/first_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="hola"
-        android:textSize="48sp"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="166dp" />
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="88dp"
+        android:text="Titol Assignatura "
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/foto_android"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_launcher_background"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="316dp" />
+        android:id="@+id/foto_assignatura"
+        android:layout_width="176dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="451dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/descriptionAssignatura"
+        android:layout_width="347dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="144dp"
+        android:text="Description Assignatura"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
